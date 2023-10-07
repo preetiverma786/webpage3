@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* Header Section Start */
 header{
     width: 100vw;
     height: 50px;
@@ -13,6 +14,8 @@ header{
     background: #022d7c;
     color: #fff;
 }
+/* Header Section End */
+/* Banner Section Start */
 .banner{
     width: 100%;
     height: 600px;
@@ -22,17 +25,17 @@ header{
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-        url(../img/industrial.jpeg);
+    url(../img/industrial.jpeg);
     background-size: cover;
 }
 .banner h1{
-    font-size: 55px;
+    font-size: 40px;
     font-weight: normal;
 }
 .banner h1 span{
     display: block;
-    font-size: 77px;
-    font-weight: 600;
+    font-size: 75px;
+    font-weight: 600px;
 }
 .banner aside{
     padding: 20px;
@@ -52,5 +55,91 @@ header{
     margin: 7px;
     height: 50px;
 }
+/* Banner Section End */
+/* Feature Section Start */
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #022d7c;
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+.feature div{
+    width: 30%;
+    height: 400px;
+}
+.feature div h2{
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+.feature div img{
+    width: 250px;
+    height: 200px;
+}
+.feature div p{
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+/* Feature Section End */
+/* About us Section Start */
+.about{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 60px 100px;
+    background: #022d7c;
+}
+.about h2{
+    font-size: 33px;
+    margin-bottom: 7px;
+}
+.about p{
+    font-size:18px;
+    font-weight: normal;
+}
+.about button{
+    background: #022d7c;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 20px 100px;
+    border-radius: 5px;
+}
+/* About us Section End */
+/* Our Service Section Start */
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image, .service .content{
+    width: 50%;
+}
+.service .image img{
+    width: 400px;
+    height: 300%;
+}
+
+/* Our Service Section End */
+/* Footer Section Start */
+footer .copy{
+    width: 100%;
+    height: 30px;
+    padding: 5px 100px;
+    text-align: center;
+    background: #022d7c;
+    color: #fff;
+}
+
+/* Footer Section End */
+
   
     
